@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
             {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
             <div className=" text-white flex flex-col gap-y-4 lg:pr-44">
-                <h1 className="text-2xl lg:text-3xl text-center sm:text-left font-bold mb-4">WISA Football Academy</h1>
+                <h1 className="text-2xl lg:text-3xl text-center sm:text-left font-bold mb-4 font-mono">WISA Football Academy</h1>
                 {/* <div className="flex flex-col gap-y-4 w-"> */}
                 {/* <h3 className="text-xl text-center sm:text-left italic font-semibold">Train like a Pro, <br />
                     Perform like a Champion! </h3> */}
@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="">
-                <p className="text-xl text-center sm:text-end italic text-[#FFFFFF80]">
+                <p className="text-xl text-center sm:text-end italic text-[#FFFFFF80] font-mono">
                     &quot;Innovate, Dominate, Inspire&quot;
                 </p>
             </div>

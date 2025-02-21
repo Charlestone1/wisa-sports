@@ -20,11 +20,11 @@ const Navbar = () => {
                     {/* Logo Section */}
                     <div className="text-xl text-gray-800 flex gap-x-4 items-center">
                         <Image src={logomain} alt="WISA Logo" height={50} priority />
-                        <Link href="/#hero">WISA</Link>
+                        <Link href="/#hero" className="font-mono">WISA</Link>
                     </div>
 
                     {/* Desktop Menu (Hidden on small screens) */}
-                    <div className="hidden sm:flex space-x-4">
+                    <div className="hidden sm:flex space-x-4 ">
                         <Link href="/#hero" className="text-gray-800 hover:text-red-600 scroll-smooth">
                             Home
                         </Link>
@@ -88,46 +88,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// import Image from "next/image";
-
-// import Link from "next/link";
-// import logomain from '../../public/images/wisaLogo.png'
-
-// const Navbar = () => {
-//     return (
-//         <nav className="bg-[#FFFFFF80] shadow-lg font-sans font-semibold flex justify-center items-center">
-//             <div className="w-full sm:px-20 px-6">
-//                 <div className="flex justify-between items-center py-3">
-//                     <div className="text-xl  text-gray-800 flex gap-x-4 items-center ">
-//                         <Image
-//                             // className="dark:invert"
-//                             src={logomain}
-//                             alt="About Us"
-//                             // width={200}
-//                             height={50}
-//                             priority
-//                         />
-//                         <Link href="/#hero">WISA</Link>
-//                     </div>
-//                     <div className="flex space-x-4">
-//                         <Link href="/#hero" className="text-gray-800 hover:text-red-600">
-//                             Home
-//                         </Link>
-//                         <Link href="/#about" className="text-gray-800 hover:text-red-600">
-//                             About Us
-//                         </Link>
-//                         <Link href="/#apply" className="text-gray-800 hover:text-red-600">
-//                             Apply
-//                         </Link>
-//                         <Link href="/#contact" className="text-gray-800 hover:text-red-600">
-//                             Contact Us
-//                         </Link>
-//                     </div>
-//                 </div>
-//             </div>
-//         </nav>
-//     );
-// };
-
-// export default Navbar;

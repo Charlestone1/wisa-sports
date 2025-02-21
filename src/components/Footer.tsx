@@ -14,19 +14,18 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-3 gap-8">
                 {/* Left Section */}
                 <div>
-                    <Link href="/#hero" className="text-lg font-bold flex items-center gap-2">
+                    <Link href="/#hero" className="text-lg font-bold flex items-center gap-2 text-gray-800 font-mono">
                         <Image
-                            // className="dark:invert"
                             src={logomain}
                             alt="About Us"
                             // width={200}
                             height={50}
-                            priority
+                        // priority
                         />
                         WISA FOOTBALL ACADEMY
                     </Link>
                     <p className="text-sm text-gray-600 mt-2">
-                        No. 14, Bernada Quarters, Off Judges Quarter, Makurdi, Benue State, Nigeria.
+                        No. 14, Bernada Quarters, Off Judges&lsquo; Quarters, Makurdi, Benue State, Nigeria.
                     </p>
                     <div className="mt-4 space-y-2">
                         {/* <p className="flex items-center gap-2 text-gray-700">

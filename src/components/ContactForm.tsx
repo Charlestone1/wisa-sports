@@ -54,7 +54,7 @@ const ContactForm = () => {
             <div className="absolute inset-0 bg-black bg-opacity-10"></div>
 
             <div className="flex flex-col items-center text-center space-y-4 px-6">
-                <h2 className="text-2xl lg:text-3xl font-semibold">Contact Us</h2>
+                <h2 className="text-2xl lg:text-3xl font-mono font-semibold">Contact Us</h2>
                 <p className="text-gray-300 text-center max-w-xl">Do you have any questions or inquiries? Reach out to us. We are just a click or call away to provide assistance. </p>
             </div>
 
@@ -66,7 +66,7 @@ const ContactForm = () => {
                             <span><FaLocationDot /></span>
                             <div>
                                 <h4 className="font-bold text-xl">Location</h4>
-                                <p className="text-gray-300 max-w-md">No. 14, Bernada Quarters, Off Judges Quarter, Makurdi, Benue State, Nigeria.</p>
+                                <p className="text-gray-300 max-w-md">No. 14, Bernada Quarters, Off Judges&lsquo; Quarters, Makurdi, Benue State, Nigeria.</p>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
