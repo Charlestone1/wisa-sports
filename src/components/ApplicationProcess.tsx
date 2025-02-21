@@ -35,7 +35,7 @@ const ApplicationProcess = () => {
     return (
         <section id='apply' className="bg-[#F6F6F6] max-w-[1440px] mx-auto py-16 font-sans">
             <div className="max-w-7xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-semibold text-gray-900 font-mono">Application Process</h2>
+                <h2 className="text-3xl font-bold text-gray-900 font-mono">Application Process</h2>
                 <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
                     Here is a step-by-step process to apply and get registered into the WISA Football Academy.
                 </p>
@@ -55,7 +55,7 @@ const ApplicationProcess = () => {
 
                                 />
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 font-mono">{step.title}</h3>
+                            <h3 className="text-lg font-bold text-gray-700 font-mono">{step.title}</h3>
                             <p className="text-sm text-gray-600 mt-2 ">{step.description}</p>
                         </div>
                     ))}

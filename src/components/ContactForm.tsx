@@ -54,7 +54,7 @@ const ContactForm = () => {
             <div className="absolute inset-0 bg-black bg-opacity-10"></div>
 
             <div className="flex flex-col items-center text-center space-y-4 px-6">
-                <h2 className="text-2xl lg:text-3xl font-mono font-semibold">Contact Us</h2>
+                <h2 className="text-2xl lg:text-3xl font-mono font-bold">Contact Us</h2>
                 <p className="text-gray-300 text-center max-w-xl">Do you have any questions or inquiries? Reach out to us. We are just a click or call away to provide assistance. </p>
             </div>
 

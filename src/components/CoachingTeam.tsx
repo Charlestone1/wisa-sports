@@ -6,7 +6,7 @@ const CoachingTeam = () => {
             id="coaching"
         >
             <div className="max-w-md space-y-5 text-center px-4">
-                <h3 className="lg:text-3xl text-2xl mb-10 font-mono">Coaching Team</h3>
+                <h3 className="lg:text-3xl text-2xl mb-10 font-bold font-mono">Coaching Team</h3>
 
                 <p>At <b><i>WISA Football Academy</i></b>, we have an expert coaching staff that help train and mold players into professionals through their unique coaching methods.
                 </p>

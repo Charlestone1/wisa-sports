@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="max-w-[1440px] mx-auto bg-gray-200 py-10 font-sans ">
+        <footer className="max-w-[1440px] mx-auto bg-gray-200 py-10 font-sans">
             <div className="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-3 gap-8">
                 {/* Left Section */}
                 <div>
@@ -86,14 +86,9 @@ const Footer = () => {
 
             {/* Bottom Section */}
             <div className="mt-8 text-center text-gray-500 text-sm">
-                © 2025 WISA Football Academy | All Rights Reserved.
+                <p> <span className="text-[17px]">&copy;</span> {new Date().getFullYear()} WISA SPORTS LIMITED | All rights reserved.</p>
             </div>
         </footer>
-        // <footer className="bg-gray-800 text-white py-8">
-        //     <div className="max-w-6xl mx-auto px-4 text-center">
-        //         <p>&copy; 2024 WISA Football Sports Academy. All rights reserved.</p>
-        //     </div>
-        // </footer>
     );
 };
 
